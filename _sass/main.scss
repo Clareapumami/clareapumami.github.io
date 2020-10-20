@@ -1,0 +1,76 @@
+$teal: #1abc9c;
+$primary: $teal;
+$secondary: #2c3e50;
+$white: #fff;
+$black: $secondary;
+$light: $white;
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/utilities/background";
+@import "bootstrap/utilities/borders";
+@import "bootstrap/utilities/position";
+@import "bootstrap/utilities/screenreaders";
+@import "bootstrap/utilities/shadows";
+@import "bootstrap/utilities/sizing";
+@import "bootstrap/utilities/spacing";
+@import "bootstrap/utilities/text";
+@import "bootstrap/print";
+@import 'fontawesome/variables';
+@import 'fontawesome/mixins';
+@import 'fontawesome/core';
+@import 'fontawesome/larger';
+@import 'custom-icons';
+@import "fontawesome/solid";
+@import "fontawesome/brands";
+
+body {
+    min-height: 25rem;
+    padding-top: 3.5rem;
+    background-color: $white;
+    color: $black;
+}
+.navbar {
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+}
+
+.services-icon {
+    .fa-lg {
+        font-size: $font-size-lg * 2;
+        color: $primary;
+    }
+}
+
+.skills-icon {
+    .fas, .fab {
+        vertical-align: middle;
+    }
+
+    .fab {
+        font-size: $font-size-lg * 1.5;
+    }
+}
+
+.footer-icons {
+    .fa-lg {
+        font-size: $font-size-lg * 2;
+        margin-left: $spacer / 2;
+        margin-right: $spacer / 2;
+    }
+}

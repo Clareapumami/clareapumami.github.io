@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<div class="jumbotron bg-primary text-white">
+    <div class="container py-5">
+        <h1 class="text-center mb-4">Hi, I'm Clare.</h1>
+        <p class="lead m-0">Welcome to my website.</p>
+        <p class="lead m-0">I like to think I have a sexy brain. My brain takes blank web pages and transforms them into beautiful homes for your brand.</p>
+        <div class="text-center"><a href="/contact" class="btn btn-lg btn-light mt-4">Request a Quote</a></div>
+    </div>
+</div>
+
+<main role="main" class="container">
+    <div class="featurette" id="services">
+        <h2 class="mt-5 badge badge-pill badge-primary text-left">Services</h2>
+        <div class="card-group">
+            {% for service in site.data.services %}
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="services-icon mb-2">{{ service.icon }}</div>
+                        <h3 class="card-heading">{{ service.heading }}</h3>
+                        <p class="card-text">{{ service.text }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="featurette mt-5" id="skills">
+        <h2 class="mt-5 badge badge-pill badge-primary text-left">Skills</h2>
+        <div class="row">
+            {% for skill in site.data.skills %}
+                <div class="col-auto mb-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <p class="skills-icon mb-0 text-muted";">{{ skill.name }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="featurette text-center" id="process">
+        <h2 class="my-5">The Four P's.</h2>
+        <div class="card-columns">
+            {% for process in site.data.process %}
+                <div class="card">
+                    <div class="card-body">
+                        <img class="img-fluid" src="{{ process.img_url }}" alt="">
+                        <hr>
+                        <h3>{{ process.heading }}</h3>
+                        <p>{{ process.text }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</main>

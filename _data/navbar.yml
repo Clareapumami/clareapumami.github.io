@@ -1,0 +1,3 @@
+#_data/navbar.yml
+- name: Contact
+  url: "/contact"

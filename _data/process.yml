@@ -1,0 +1,13 @@
+#_data/process.yml
+- heading: 1. Plan
+  text: I answer your questions, and advice you on the project scope and budget.
+  img_url: '/assets/img/plan.png'
+- heading: 2. Project
+  text: We discuss further, exploring what's possible together.
+  img_url: '/assets/img/project.png'
+- heading: 3. Prepare
+  text: I execute the plan. Ensuring I take you along every step of the way.
+  img_url: '/assets/img/prepare.png'
+- heading: 4. Publish
+  text: I help you publish in time for your launch date.
+  img_url: '/assets/img/publish.png'

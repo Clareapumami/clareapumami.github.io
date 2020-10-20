@@ -1,0 +1,10 @@
+#_data/services.yml
+- heading: Front-end Development
+  text: I build modern, responsive interfaces for your brand
+  icon: '<i class="fas fa-lg fa-desktop"></i>'
+- heading: Back-end Development
+  text: I write clean, modular and secure codes for the website BTS
+  icon: '<i class="fas fa-lg fa-server"></i>'
+- heading: WordPress Development
+  text: I build custom WordPress and WooCommerce themes for your brand
+  icon: '<i class="fab fa-lg fa-wordpress-simple"></i>'
