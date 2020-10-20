@@ -15,7 +15,7 @@ layout: default
         <h2 class="mt-5 badge badge-pill badge-primary text-left">Services</h2>
         <div class="card-group">
             {% for service in site.data.services %}
-                <div class="card border-0 shadow">
+                <div class="card border-0 shadow-lg">
                     <div class="card-body">
                         <div class="services-icon mb-2">{{ service.icon }}</div>
                         <h3 class="card-heading">{{ service.heading }}</h3>
@@ -30,7 +30,7 @@ layout: default
         <div class="row">
             {% for skill in site.data.skills %}
                 <div class="col-auto mb-3">
-                    <div class="card border-0 shadow">
+                    <div class="card border-0 shadow-lg">
                         <div class="card-body">
                             <p class="skills-icon mb-0 text-muted";">{{ skill.name }}</p>
                         </div>
@@ -43,7 +43,7 @@ layout: default
         <h2 class="my-5">The Four P's.</h2>
         <div class="card-columns">
             {% for process in site.data.process %}
-                <div class="card">
+                <div class="card border-0 shadow-lg">
                     <div class="card-body">
                         <img class="img-fluid" src="{{ process.img_url }}" alt="">
                         <hr>
