@@ -10,8 +10,8 @@ layout: default
     </div>
 </div>
 
-<main role="main" class="container bg-light">
-    <div class="featurette" id="services">
+<main role="main" class="bg-light">
+    <div class="featurette container" id="services">
         <h2 class="mt-5 badge badge-pill badge-primary text-left">Services</h2>
         <div class="card-group">
             {% for service in site.data.services %}
@@ -25,7 +25,7 @@ layout: default
             {% endfor %}
         </div>
     </div>
-    <div class="featurette mt-5" id="skills">
+    <div class="featurette container mt-5" id="skills">
         <h2 class="mt-5 badge badge-pill badge-primary text-left">Skills</h2>
         <div class="row">
             {% for skill in site.data.skills %}
@@ -39,7 +39,7 @@ layout: default
             {% endfor %}
         </div>
     </div>
-    <div class="featurette text-center" id="process">
+    <div class="featurette container-fluid text-center" id="process">
         <h2 class="my-5">The 4 P's.</h2>
         <div class="card-deck">
             {% for process in site.data.process %}
